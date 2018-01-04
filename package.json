@@ -1,0 +1,26 @@
+{
+  "name": "l-safeSet",
+  "version": "0.0.1",
+  "description": "get a nested value from an object by paths (`a.b.c` or ['a','b','c'])",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:julyL/safeSet.git"
+  },
+  "scripts": {
+    "test":"mocha"
+  },
+  "keywords": [
+    "safeSet"
+  ],
+  "author": "julylb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julyL/safeSet/issues"
+  },
+  "homepage": "https://github.com/julyL/safeSet#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.5.3"
+  }
+}
